@@ -1,0 +1,61 @@
+body{
+  background-color: #fff;
+
+}
+img {
+  border-radius: 8px;
+  border: 3px solid #ddd;
+}
+h2 {
+  font-family: impact;
+}
+h1 {
+  font-family: fantasy;
+  font-size: 50pt;
+  text-decoration: underline;
+}
+/*dette er for menyen */
+ul {
+  font-family: fantasy;
+  font-size: 15pt;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  display: inline;
+  float: left;
+}
+a {
+  display: block;
+  padding: 15px;
+  background-color: ##5f5f5f;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #dd3989;
+}
+.active {
+  background-color: #f7b4e2;
+}
+/*dette er for tabelen */
+table{
+  font-family: sans-serif;
+  border-collapse: collapse;
+  background-color: #fff
+}
+/*dette er for den crediten som står nederst */
+.credits{
+  font-family: fantasy;
+}
